@@ -1,0 +1,11 @@
+body{
+    font-family: monospace;
+}
+
+button{
+    background-color: burlywood;
+    color: blueviolet;
+    padding: 4px 12px;
+    text-align: center;
+    cursor:pointer;
+}

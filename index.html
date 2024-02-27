@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex flex-col gap-4 m-12 w-">
+        <h1 class=" font-bold text-3xl text-black px-2 align-middle tracking-tight">Todo</h1>
+        <div class="flex flex-row gap-4">
+          <input id="task-input" type="text" placeholder="Enter your task" class=" px-40 border-2 bg-gr rounded-lg border-gray-100 bg-gray-200 text-left p-2">
+            <button id="add-button" onClick="addTask()" class=" bg-black text-white px-5 hover:bg-gray-200 rounded-full py-1">Add task</button>
+            <button id="delete-button" onClick="deleteTask()" class=" bg-red-500 text-white px-5 hover:bg-green-500 rounded-full py-1">Delete All</button></div>
+            <p  class="font-bold text-xl">Here are your To-Do : <span id="total-count"></span></p>
+            <div flex flex-col gap-4>
+            <ul id="task-list"></ul>
+            </div>
+            </div>
+            <script src="script.js"></script>
+</body>
+</html>
